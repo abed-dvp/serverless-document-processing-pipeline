@@ -1,0 +1,42 @@
+[
+  {
+    "name": "filename",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "bucket",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "size",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "content_type",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "word_count",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "tags",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "name": "ocr_text_preview",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "process_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  }
+]

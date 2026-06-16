@@ -1,0 +1,39 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files and credentials
+.env
+.env.*
+*.json
+# DO NOT ignore the table schema definition
+!schema.json
+*.pem
+*.key
+credentials/
+*credentials*.json
+*service-account*.json
+*sa-key*.json
+*key*.json
+
+# Logs
+*.log
+log.txt
+
+# Local IDE configuration
+.vscode/
+.idea/
+.project
+.pydevproject
+.settings/
+*.suo
+*.ntuser
+*.user
+*.code-workspace
